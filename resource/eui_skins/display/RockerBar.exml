@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RockerBarSkin" width="80" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15af4ef91d8" ></w:Config>
+	<e:Button id="barBtn" label="" anchorOffsetX="40" anchorOffsetY="40" width="80" height="80" enabled="true" y="40" x="40">
+		<e:skinName>
+			<e:Skin states="up,down">
+			<e:Image width="100%" height="100%" source="move_png" source.down="move_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>
